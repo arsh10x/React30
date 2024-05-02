@@ -11,8 +11,9 @@ import Routing from "./components/Routing";
 // import Toggle from "./components/Toggle";
 function App() {
   return (
-    <div>
-      {/* <Hello /> */}  
+    <div className="container">
+      <h1>30 React Exercise</h1>
+      {/* <Hello /> */}
       {/* <Counter /> */}
       {/* <Form /> */}
       {/* <List /> */}
