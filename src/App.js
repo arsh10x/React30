@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+// import BackgroundChange from "./components/BackgroundChange";
+import Routing from "./components/Routing";
+// import ToDoList from "./components/ToDoList";
+// import Api from "./components/Api";
+// import Timer from "./components/Timer";
+// import Hello from "./components/Hello";
+// import Two from "./components/Two";
+// import Form from "./components/Form";
+// import List from "./components/List";
+// import Toggle from "./components/Toggle";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Hello /> */}  
+      {/* <Counter /> */}
+      {/* <Form /> */}
+      {/* <List /> */}
+      {/* <Toggle /> */}
+      {/* <Api /> */}
+      {/* <Timer /> */}
+      {/* <ToDoList /> */}
+      {/* <BackgroundChange /> */}
+      <Routing />
     </div>
   );
 }
