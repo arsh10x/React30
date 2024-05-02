@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0; /* Set a light gray background color */
+  background-color: #f0f0f0;
+  /* Set a light gray background color */
 }
 
 .container {
@@ -15,5 +16,15 @@ body {
 h1 {
   font-size: 36px;
   color: #333;
-  margin-top: 50px; /* Adjust the top margin for the h1 */
+  margin-top: 50px;
+  /* Adjust the top margin for the h1 */
+}
+
+.boxStyle {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
