@@ -1,5 +1,6 @@
 import "./App.css";
-import Authentication from "./components/Authentication";
+import Weather from "./components/Weather";
+// import Authentication from "./components/Authentication";
 // import Quote from "./components/Quotes/Quote";
 // import FileUploader from "./components/FileUploader";
 // import BackgroundChange from "./components/BackgroundChange";
@@ -29,7 +30,8 @@ function App() {
         {/* <Routing /> */}
         {/* <Quote /> */}
         {/* <FileUploader /> */}
-        <Authentication/>
+        {/* <Authentication/> */}
+        <Weather />
       </div>
     </div>
   );
