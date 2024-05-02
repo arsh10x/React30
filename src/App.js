@@ -1,6 +1,8 @@
 import "./App.css";
+// import Quote from "./components/Quotes/Quote";
+import FileUploader from "./FileUploader";
 // import BackgroundChange from "./components/BackgroundChange";
-import Routing from "./components/Routing/Routing";
+// import Routing from "./components/Routing/Routing";
 // import ToDoList from "./components/ToDoList";
 // import Api from "./components/Api";
 // import Timer from "./components/Timer";
@@ -23,7 +25,9 @@ function App() {
         {/* <Timer /> */}
         {/* <ToDoList /> */}
         {/* <BackgroundChange /> */}
-        <Routing />
+        {/* <Routing /> */}
+        {/* <Quote /> */}
+        <FileUploader />
       </div>
     </div>
   );

@@ -10,6 +10,7 @@ import "./Routing.css";
 const Routing = () => {
   return (
     <Router>
+      <h2>Routing</h2>
       <div className="App">
         <nav className="navbar">
           <ul className="navbar-nav">
