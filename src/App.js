@@ -1,6 +1,7 @@
 import "./App.css";
+import Authentication from "./components/Authentication";
 // import Quote from "./components/Quotes/Quote";
-import FileUploader from "./FileUploader";
+// import FileUploader from "./components/FileUploader";
 // import BackgroundChange from "./components/BackgroundChange";
 // import Routing from "./components/Routing/Routing";
 // import ToDoList from "./components/ToDoList";
@@ -27,7 +28,8 @@ function App() {
         {/* <BackgroundChange /> */}
         {/* <Routing /> */}
         {/* <Quote /> */}
-        <FileUploader />
+        {/* <FileUploader /> */}
+        <Authentication/>
       </div>
     </div>
   );
