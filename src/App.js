@@ -1,4 +1,5 @@
 import "./App.css";
+import ColorPicker from "./components/ColorPicker";
 // import Pagination from "./components/Pagination";
 // import Search from "./components/Search";
 // import Weather from "./components/Weather";
@@ -37,7 +38,7 @@ function App() {
         {/* <Weather /> */}
         {/* <Search items={items} /> */}
         {/* <Pagination items={items} itemsPerPage={2} /> */}
-        
+        <ColorPicker />
       </div>
     </div>
   );
