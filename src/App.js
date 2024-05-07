@@ -1,5 +1,9 @@
 import "./App.css";
-import ColorPicker from "./components/ColorPicker";
+import DarkTheme from "./components/Theme/DarkTheme";
+import Theme from "./components/Theme/Theme";
+import { ThemeProvider } from "./components/Theme/ThemeContex";
+// import ColorPicker from "./components/ColorPicker";
+// import HamburgerMenu from "./components/HamburgerMenu/HamburgerMenu";
 // import Pagination from "./components/Pagination";
 // import Search from "./components/Search";
 // import Weather from "./components/Weather";
@@ -38,7 +42,14 @@ function App() {
         {/* <Weather /> */}
         {/* <Search items={items} /> */}
         {/* <Pagination items={items} itemsPerPage={2} /> */}
-        <ColorPicker />
+        {/* <ColorPicker /> */}
+        {/* <HamburgerMenu /> */}
+        <ThemeProvider>
+          <div className="App">
+            <DarkTheme />
+            <Theme />
+          </div>
+        </ThemeProvider>
       </div>
     </div>
   );
