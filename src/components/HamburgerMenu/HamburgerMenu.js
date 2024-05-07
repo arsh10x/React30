@@ -1,3 +1,5 @@
+//** HAMBURGER MENU Component
+
 import React from "react";
 import "./HamburgerMenu.css";
 

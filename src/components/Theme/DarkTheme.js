@@ -1,3 +1,5 @@
+//** Dark Theme Component
+
 import React from "react";
 import { useTheme } from "./ThemeContex";
 

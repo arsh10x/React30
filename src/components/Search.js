@@ -1,3 +1,5 @@
+//** SEARCH BAR Component
+
 import React from "react";
 
 const Search = ({ items }) => {

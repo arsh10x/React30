@@ -1,7 +1,7 @@
 import "./App.css";
-import DarkTheme from "./components/Theme/DarkTheme";
-import Theme from "./components/Theme/Theme";
-import { ThemeProvider } from "./components/Theme/ThemeContex";
+// import DarkTheme from "./components/Theme/DarkTheme";
+// import Theme from "./components/Theme/Theme";
+// import { ThemeProvider } from "./components/Theme/ThemeContex";
 // import ColorPicker from "./components/ColorPicker";
 // import HamburgerMenu from "./components/HamburgerMenu/HamburgerMenu";
 // import Pagination from "./components/Pagination";
@@ -44,12 +44,12 @@ function App() {
         {/* <Pagination items={items} itemsPerPage={2} /> */}
         {/* <ColorPicker /> */}
         {/* <HamburgerMenu /> */}
-        <ThemeProvider>
+        {/* <ThemeProvider>
           <div className="App">
             <DarkTheme />
             <Theme />
           </div>
-        </ThemeProvider>
+        </ThemeProvider> */}
       </div>
     </div>
   );

@@ -1,3 +1,5 @@
+//** QUOTES GENERATOR 
+
 import React from "react";
 const quotes = require("./Quotes.json");
 

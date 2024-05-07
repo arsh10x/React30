@@ -1,3 +1,5 @@
+//** PAGINATION COMPONENT
+
 import React from 'react';
 
 const Pagination = ({ items, itemsPerPage }) => {
