@@ -8,7 +8,7 @@ const ToDoList = () => {
   const addTodo = () => {
     if (input.trim() !== "") {
       setTodos([...todos, input]);
-      setInput(""); 
+      setInput("");
     }
   };
 

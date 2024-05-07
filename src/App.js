@@ -1,5 +1,7 @@
 import "./App.css";
-import Weather from "./components/Weather";
+// import Pagination from "./components/Pagination";
+// import Search from "./components/Search";
+// import Weather from "./components/Weather";
 // import Authentication from "./components/Authentication";
 // import Quote from "./components/Quotes/Quote";
 // import FileUploader from "./components/FileUploader";
@@ -14,6 +16,7 @@ import Weather from "./components/Weather";
 // import List from "./components/List";
 // import Toggle from "./components/Toggle";
 function App() {
+  // const items = ["Item 1", "Item 2", "Items 3", "Items 4", "hello1", "hello2"];
   return (
     <div className="container">
       <h1>30 React Exercise</h1>
@@ -31,7 +34,10 @@ function App() {
         {/* <Quote /> */}
         {/* <FileUploader /> */}
         {/* <Authentication/> */}
-        <Weather />
+        {/* <Weather /> */}
+        {/* <Search items={items} /> */}
+        {/* <Pagination items={items} itemsPerPage={2} /> */}
+        
       </div>
     </div>
   );
